@@ -1,6 +1,7 @@
 ---
 - name: Install packages
-  hosts: localhost  
+  hosts: localhost
+  # VAR 
   vars:
     state: "latest"
     common_packages: 
